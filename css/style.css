@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+.game-name {
+    font-family: "Caveat";
+    font-size: 40px;
+}
+
+.counter-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.your-record {
+    font-family: "Caveat";
+}
+
+.counter {
+    font-family: "Caveat";
+    font-size: 35px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.buttonadd {
+    margin-bottom: 20px;
+   background-color: rgb(40, 214, 51);
+}
+.buttondel {
+    margin-bottom: 30px;
+    background-color: orangered;
+}
+.buttonres {
+    background-color: darkblue;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-family: "Caveat";
+    font-size: 20px
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
